@@ -1,0 +1,160 @@
+
+* {
+    font-family: Roboto, Arial;
+}
+
+body {
+    background-color: #fffffe;
+}
+
+input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.10);
+    padding-left: 5px;
+    height: 30px;
+    width: 350px;
+}
+
+textarea {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.10);
+    height: 100px;
+    width: 350px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+section {
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    margin-bottom: 10px;
+    border: 0.2pt #827d7d;
+    border-radius: 20px;
+    padding: 2% 1.2%;
+    box-shadow:    
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p, .form-text {
+    color: #2d334a;
+}
+
+li {
+    font-size: 20px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.foto-perfil {
+    width: 150px;
+    border-radius: 100px;
+    margin-right: 20px;
+    float: right;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.boton-enviar {
+    font-family: Roboto, Arial;
+    background-color: #ffd803;
+    color: #272343;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 357px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #d4b503;
+}
+
+.boton-enviar:active {
+    opacity: 0.7;
+}
+
+.div-nombre, .div-apellido, .div-correo-electronico, .div-mensaje {
+    display: grid;
+    grid-template-columns: 150px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    row-gap: 10px;
+}
+
+.form-text {
+    font-weight: bold;
+}
+
+.pie-pagina {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contenedores-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+
+.contenedores-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.navegador {
+    display: inline-block;
+}
+
+.video-cs, .mapa-institucion {
+    margin-left: 10px;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cv-titulo {
+    margin-left: 20px;
+    color:#fffffe;
+}
+
+.subtitulo {
+    color: #fffffe;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subtitle-container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+}

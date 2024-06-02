@@ -1,57 +1,194 @@
-<!DOCTYPE html> 
-<html lang="es"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <title>Currículum Vitae</title> 
-</head> 
-<body> 
-    <header> 
-        <h1>Currículum Vitae</h1> 
-    </header> 
-    <nav> 
-        <ul> 
-            <li> <a href="#">Inicio</a></li> 
-            <li><a href="#">Educación</a> </li> 
-            <li><a href="#">Experiencia</a></li> 
-            <li><a href="#">Habilidades</a></li> 
-            <li><a href="#">Contacto</a></li> 
-        </ul> 
-    </nav>
-    <section id="informacion-personal"> 
-        <h2>Información personal</h2> 
-        <p> Nombre: <span>Savier Acosta</span> </p> 
-        <p> Ubicación: <span>Guayaquil, Ecuador</span> </p> 
-        <p> Correo electrónico: <span>saacosta@espol.edu.ec</span> </p> 
-    </section> 
-    <section id="educacion"> 
-        <h2>Educación</h2> 
-        <p> Grado: <span>Ingeniería en Computación</span> </p> 
-        <p> Institución: <span>Escuela Superior Politécnica del Litoral</span> </p>
-        <p> Fechas: <span>2021-actualidad</span> </p> 
-    </section> 
-    <section id="experiencia"> 
-        <h2>Experiencia</h2> 
-        <p> Cargo: <span>Desarrollador de software</span> </p> 
-        <p> Empresa: <span>Google</span> </p>
-        <p> Fechas: <span>2023-Presente</span> </p> 
-    </section>
-    <section id="descripcion">
-        <h2>Descripción</h2>
-        <ul> 
-            <li>Desarrollo de aplicaciones web</li> 
-            <li>Mantenimiento de sistemas</li> 
-            <li>Trabajo en equipo</li> 
-        </ul> 
-    </p> 
-    <section id="habilidades"> 
-        <h2>Habilidades</h2> 
-        <ul> 
-            <li>Lenguajes de programación: Python, JavaScript, Java</li> 
-            <li>Bases de datos: MySQL, PostgreSQL</li> 
-            <li>Herramientas de desarrollo: Visual Studio Code, Git</li> 
-            <li>Otros: Inglés, Portugués</li> 
-        </ul> 
-    </section>
-    <footer> <p>Copyright © 2024 Savier Acosta</p> </footer> 
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Currículum, Vitae, Python, Java, C, lenguajes, programación, bases, datos, proyectos">
+    <meta name="description" content="Esta página web tiene como objetivo mostrar mi Currículum Vitae mediante el uso de herramientas como HTML y CSS">
+    <meta name="author" content="Savier Acosta">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <title>Currículum Vitae</title>
+</head>
+<body>
+    <div class="titulo">
+        <header class="cv-titulo">
+            <h1>
+                Currículum Vitae
+            </h1>
+        </header>
+    </div>
+
+    <div class="navegador">
+        <nav>
+            <ul>
+                <li><a href="#informacion-personal">Información personal</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#formulario-contacto">Establecer contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <img class="foto-perfil" src="images/perfil.jpg" alt="imagen-cv">
+    
+    <div class="contenedores-1">
+        <section id="informacion-personal">
+            <div class="subtitle-container">
+                <h2 class="subtitulo">
+                    Información personal
+                </h2>
+            </div>
+            <p>
+                <strong>Nombre:</strong> Savier Acosta
+            </p>
+            <p>
+                <strong>Ubicación:</strong> Guayaquil, ECU
+            </p>
+            <p>
+                <strong>Correo:</strong> saacosta@espol.edu.ec
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <div class="subtitle-container">
+                <h2 class="subtitulo">
+                    Habilidades
+                </h2>
+            </div>
+            <p>
+                <strong>Lenguajes de programación:</strong> Python, Java, JavaScript, C
+            </p>
+            <p>
+                <strong>Bases de datos:</strong> MySQL
+            </p>
+            <p>
+                <strong>Herramientas de desarrollo:</strong> Visual Studio Code, Linux, Git
+            </p>
+            <p>
+                <strong>Otros:</strong> Inglés
+            </p>
+        </section>
+
+        <section id="proyectos">
+            <div class="subtitle-container">
+                <h2 class="subtitulo">
+                    Proyectos
+                </h2>
+            </div>
+            <p>
+                <strong>Java (Estructura de datos)</strong> 
+            </p>
+            <p>
+                <strong>Descripción:</strong> Este proyecto consiste en el desarrollo de un diccionario en Java, 
+                utilizando herramientas como JavaFX, Git y GitHub. Se emplea la estructura de datos (TDA) árbol Trie 
+                para gestionar la búsqueda de palabras dentro del diccionario.
+            </p>
+            <p>
+                <strong>Link del repositorio:</strong> 
+                <a href="https://github.com/savier018/aplicacionDiccionario" target="_blank">
+                    https://github.com/savier018/aplicacionDiccionario
+                </a>
+            </p>
+        </section>
+    </div>
+
+    <div class="contenedores-2">
+        <section id="educacion">
+            <div class="subtitle-container">
+                <h2 class="subtitulo">
+                    Educación
+                </h2>
+            </div>
+            <p>
+                <strong>Grado:</strong> Ingeniería en Ciencias de la Computación       
+            </p>
+            <iframe class="video-cs"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/Tzl0ELY_TiM" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <p>
+                <strong>Institución:</strong> Escuela Superior Politécnica del Litoral (ESPOL)
+            </p>
+            <p>
+                <strong>Fechas:</strong> 2021 - actualidad
+            </p>
+            <p>
+                <strong>Ubicación de la institución:</strong>
+            </p>
+            <iframe class= "mapa-institucion" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63792.24264597484!2d-80.0407870513672!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1716217516014!5m2!1ses!2sec" 
+                width="560" 
+                height="315" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    
+        <section id="formulario-contacto">
+            <div class="subtitle-container">
+                <h2 class="subtitulo">
+                    Establecer contacto
+                </h2>
+            </div>    
+            <p>
+                Por favor, llenar el siguiente formulario en caso de querer reunirse 
+                conmigo para discutir sobre algún tema (futuros proyectos, trabajos, 
+                criptomonedas, inteligencia artifical).
+            </p>
+            <form>
+                <div class="div-nombre">
+                    <div>
+                        <label class="form-text" for="nombre">Nombre</label>
+                    </div>
+                    <div>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>         
+                </div>
+                <div class="div-apellido">
+                    <div>
+                        <label class="form-text" for="apellido">Apellido</label>
+                    </div>
+                    <div>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>             
+                </div>
+                <div class="div-correo-electronico">
+                    <div>
+                        <label class="form-text" for="correo-electronico">Correo electrónico</label>
+                    </div>
+                    <div>
+                        <input type="text" id="correo-electronico" name="correo-electronico" required>
+                    </div>                 
+                </div>
+                <div class="div-mensaje">
+                    <div>
+                        <label class="form-text" for="mensaje">Mensaje</label>
+                    </div>
+                    <div>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>         
+                </div>
+                <div>
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer class="pie-pagina">
+        Copyright &#169; 2024 Savier Acosta
+    </footer>
+</body>
 </html>
